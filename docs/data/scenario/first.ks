@@ -1,26 +1,55 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="全人類ネコ派計画"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「全人類ネコ派計画」[l][r]
+[cm]
 
-メロスは激怒した。[l][r]
+ある夜、僕はルンルン気分で帰り道を歩いていた[l][r]
+[cm]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+「ふー、仕事も終わったし、犬の動画でも見て癒されようかな～」[l][r]
+[cm]
 
-(中略)[l][r]
+ぞわ...[r]
+   ぞわ...[l][r]
+[cm]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+何か、よからぬものが近づいてきている。[r]
+そう思った次の瞬間[l][r]
+[cm]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+「おい」[l][r]
+[cm]
+
+その声とともに、背中に鋭い何かが突きつけられていることを認識した。[l][r]
+[cm]
+
+「な、なんだ...」[l][r]
+[cm]
+
+恐怖で体が動かない[l][r]
+
+何が目的でやっているのか、そもそもなんでこうなっているのか[l][r]
+[cm]
+
+「お前、ネコ派か犬派か？」[l][r]
+[cm]
+
+「...え？」[l][r]
+[cm]
+
+「お前、ネコ派か犬派か？」[l][r]
+[cm]
+
+[link target=*tag_犬] →「犬派だ」 [endlink][r]
+[link target=*tag_ネコ] →「ネコ派だ」 [endlink][r]
 [s]
 
-*tag_sleep
+*tag_犬
 
 [cm]
 
@@ -33,7 +62,7 @@
 
 [jump target=*start]
 
-*tag_run
+*tag_ネコ
 
 [bg storage=run.jpg time=500]
 
